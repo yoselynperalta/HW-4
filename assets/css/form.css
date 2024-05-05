@@ -1,0 +1,48 @@
+nav {
+    text-align: right;
+    border-style: solid;
+    margin-bottom: 50px;
+}
+
+#section-left {
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 50%;
+    margin: 5px 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+    width: 400px;
+}
+
+#section-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 400px;
+    float: right;
+}
+
+#username,
+#title,
+#content,
+#submit {
+    width: 70%; 
+    margin: 10px 20px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 30px; 
+    font-size: 20px;
+}
+
+#submit {
+    color: white;
+    background-color: black;
+}
